@@ -1,0 +1,27 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="theme.css">
+</head>
+
+<body>
+<h1>Image filter</h1>
+
+<canvas id="field"></canvas>
+
+<p>
+  <input type="file" id="loadimage" multiple="false" accept="image/*" onchange="loadImage()" >
+</p>
+<p>
+  <input type="button" id="rainbowimage" value="Rainbow" onclick="makerainbowImage()" >
+  <input type="button" id="redimage" value="Red" onclick="makeRedImage()" >
+  <input type="button" id="makegrayimage" value="Makegray" onclick="makegrayImage()" >
+    <input type="button" id="goldXFrame" value="Make Y axis gold frame" onclick="makeGoldYFrame()" >
+</p>
+<p>
+    <input type="button" id="reset" value="Reset" onclick="resetImage()" >
+</p>
+
+  <script type="text/javascript" src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+  <script type="text/javascript" src="myaction.js"></script>
+</body>
+</html>

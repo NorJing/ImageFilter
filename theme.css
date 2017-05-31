@@ -1,0 +1,22 @@
+h1 {
+  font-family: arial;
+  color: dimgray;
+}
+
+body {
+  background-color: lightblue;  
+}
+
+canvas {
+  width: 500px;
+  margin: 10px;
+  border: 1px solid green;
+}
+
+input {
+  font-size: 10pt;  
+}
+
+.orange {
+  background-color: orange;
+}
